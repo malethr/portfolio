@@ -1,9 +1,27 @@
-img {
+#topimg {
   height: 200px;
   width: auto;
   float: left;
 }
 
+#banner {
+  width: 100%;
+  display: block;
+}
+
+.top {
+  display: block;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     display: block;
@@ -24,4 +42,18 @@ img {
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+#topname {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.mainbody {
+  height: 500px;
+  width: 100%
+}
+
+body {
+  font-family: Arial;
 }
