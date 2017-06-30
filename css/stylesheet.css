@@ -30,7 +30,6 @@
 
 body {
   font-family: Arial;
-
 }
 
 nav {
@@ -47,14 +46,10 @@ nav {
   width: auto;
 }
 
-#abh1 {
-  color: white;
-}
-
 .well{
   background-color: ffc966;
   border: none;
-  line-height: 25px;
+  line-height: auto;
   font-size: 20px;
   font-style: italic;
   font-family: arial;
@@ -68,5 +63,17 @@ nav {
 
 #bottomnav {
   text-align: center;
+}
 
+#parag {
+  font-size: 11px;
+}
+
+#quote {
+  padding: 30px;
+}
+
+.top {
+  margin-left: auto;
+  margin-right: auto;
 }
